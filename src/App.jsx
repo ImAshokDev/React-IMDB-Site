@@ -4,6 +4,7 @@ import Rating from './rating/Rating';
 import Gallery from './gallery/Gallery';
 import Slider from './slider/Slider';
 import Picks from './picks/Picks';
+import Footer from './footer/Footer';
 import './App.scss';
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
     <Gallery />
     <Slider />
     <Picks />
+    <Footer />
   </div>
 );
 
