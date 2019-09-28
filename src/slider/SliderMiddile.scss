@@ -1,0 +1,60 @@
+.slider-middile {
+  height: 320px;
+  width: 1350px;
+  margin: auto;
+  background: rgb(56, 55, 55);
+  .picks {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
+    height: 320px;
+
+    #i1 {
+      padding-top: 110px;
+      font-size: 70px;
+      color: white;
+    }
+    #i2 {
+      margin-left: 30px;
+      padding-top: 110px;
+      font-size: 70px;
+      color: white;
+    }
+    .img {
+      padding: 10px;
+      float: left;
+      color: white;
+      img {
+        width: 150px;
+
+        height: 210px;
+        border-radius: 4px;
+      }
+      img:hover {
+        width: 100%;
+        height: 220px;
+      }
+
+      h4 {
+        margin: 10px 0 5px 0;
+
+        font-family: 'Heebo', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Heebo', sans-serif;
+        color: rgb(56, 55, 55);
+        opacity: 0.7;
+      }
+    }
+    .img:hover {
+      color: black;
+      background-color: white;
+      border-radius: 4px;
+    }
+  }
+}

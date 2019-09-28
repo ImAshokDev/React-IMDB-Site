@@ -1,0 +1,28 @@
+.slider-section {
+  height: 480px;
+  background: rgb(56, 55, 55);
+  .header {
+    height: 60px;
+
+    h4 {
+      margin: 0;
+      padding-top: 20px;
+      text-align: center;
+      font-family: 'Heebo', sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+  h5 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+}
