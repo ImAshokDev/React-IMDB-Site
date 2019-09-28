@@ -10,6 +10,6 @@ const Grid = ({ pixels, bg }) => (
 );
 
 const First = () => <div className="first-block" />;
-const Middile = () => <div className="middile-block" />;
+const Middile = () => <div className="middile-block">1</div>;
 const Last = () => <div className="last-block" />;
 export default Grid;
