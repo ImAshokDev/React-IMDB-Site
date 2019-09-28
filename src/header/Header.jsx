@@ -43,7 +43,7 @@ const Search = () => (
 );
 const Profile = () => (
   <div className="profile-block">
-    <p>profile</p>
+    <div className="img" />
   </div>
 );
 export default Header;
