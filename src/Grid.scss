@@ -1,4 +1,22 @@
 .grid-section {
   margin: 0;
   padding: 0;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  .first-block {
+    background: url(./rating/images/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .middile-block {
+    background: url(./rating/images/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .last-block {
+    background: url(./rating/images/03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
