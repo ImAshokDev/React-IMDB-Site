@@ -1,6 +1,6 @@
-import React from "react";
-import Grid from "../Grid";
-import "./Rating.scss";
+import React from 'react';
+import Grid from '../Grid';
+import './Rating.scss';
 
 const Rating = () => (
   <div className="rating-section">

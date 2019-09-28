@@ -1,6 +1,6 @@
-import React from "react";
-import GalleryMiddile from "./GalleryMiddile";
-import "./Gallery.scss";
+import React from 'react';
+import GalleryMiddile from './GalleryMiddile';
+import './Gallery.scss';
 
 const Gallery = () => (
   <div className="gallery-section">
