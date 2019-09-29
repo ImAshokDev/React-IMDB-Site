@@ -78,15 +78,151 @@
           }
         }
       }
+      .rate3 {
+        grid-column: 1 / span 2;
+
+        display: grid;
+        grid-template-columns: 1.5fr 8fr;
+        .left {
+          i {
+            width: absolute;
+            color: orange;
+            margin: 10px 10px 10px 4px;
+            font-size: 110px;
+          }
+          div {
+            margin: -100px 0 0 34px;
+            h1 {
+              color: orange;
+              font-size: 30px;
+              font-weight: bold;
+              font-family: 'Abril Fatface', cursive;
+            }
+          }
+        }
+        .right {
+          padding: 0;
+          margin: 0;
+
+          font-family: 'Roboto', sans-serif;
+          color: white;
+
+          .first {
+            p {
+              big {
+                font-size: 16px;
+                opacity: 0.7;
+                font-family: 'Merriweather', serif;
+                font-size: 14px;
+              }
+
+              span {
+                margin: 0;
+                padding: 0 0 0 4px;
+                font-size: 16px;
+                font-weight: bold;
+                color: orange;
+
+                i {
+                  padding-right: 5px;
+                }
+              }
+              small {
+                i {
+                  padding-right: 5px;
+                  font-size: 16px;
+                  opacity: 0.6;
+                }
+                b {
+                  padding-left: 2px;
+                  font-size: 16px;
+                }
+                big {
+                  font-size: 18px;
+                  opacity: 0.6;
+                }
+              }
+            }
+          }
+          .second {
+            margin-bottom: 10px;
+            p {
+              margin: 0;
+              font-size: 16px;
+              font-family: 'Roboto', sans-serif;
+              small {
+                margin: 0;
+                font-size: 14px;
+                opacity: 0.8;
+                padding-right: 5px;
+              }
+              b {
+                margin: 0;
+                font-size: 14px;
+                opacity: 0.4;
+              }
+              span {
+                margin: 0;
+                font-weight: bold;
+                font-size: 14px;
+              }
+            }
+          }
+          .third {
+            height: 20px;
+            ul {
+              padding: 0;
+              li {
+                list-style-type: none;
+                float: left;
+                p {
+                  margin: 0;
+                  font-size: 14px;
+                  padding: 0;
+                  font-family: 'Roboto', sans-serif;
+                }
+                b {
+                  margin: 0;
+                  font-size: 14px;
+                  padding-left: 4px;
+                  font-family: 'Roboto', sans-serif;
+                  font-weight: bolder;
+                  padding-right: 8px;
+                }
+                div {
+                  margin-top: 7px;
+                  font-size: 6px;
+                  padding: 0 2px;
+                }
+              }
+            }
+            // p {
+            //   margin: 0;
+            //   font-size: 16px;
+            //   font-family: 'Roboto', sans-serif;
+            //   i {
+            //     margin: 0 0 50px 0;
+            //     padding: 0 10px;
+            //     font-size: 6px;
+            //   }
+            //   span {
+            //     margin: 0;
+            //     font-weight: bold;
+            //     font-size: 14px;
+            //   }
+            // }
+          }
+        }
+      }
+      .middile-right {
+        background: silver;
+      }
     }
-    .middile-right {
-      background: silver;
+    .last-block {
+      background: url(./rating/images/03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.4;
     }
-  }
-  .last-block {
-    background: url(./rating/images/03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.4;
   }
 }

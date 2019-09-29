@@ -68,7 +68,7 @@ const Rate3 = () => (
     <div className="right">
       <div className="first">
         <p>
-          Your rating:
+          <big> Your rating:</big>
           <span>
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -77,48 +77,64 @@ const Rate3 = () => (
             <i className="fas fa-star" />
             <i className="fas fa-star" />
           </span>
-          <i className="fas fa-star" />
-          <i className="fas fa-star" />
-          <i className="fas fa-star" />
-          <i className="fas fa-star">
-            <small>
-              <h3>6</h3>
-              /10
-            </small>
-          </i>
+          <small>
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <i className="fas fa-star" />
+            <b>6</b> <big>/10</big>
+          </small>
         </p>
       </div>
-      <div>
+      <div className="second">
         <p>
-          Ratings:
+          <small> Ratings:</small>
           <span>8.7/</span>
-          <small>10</small>
-          from
-          <span>137,182 users</span>
-          Metascore:
+          <b>10</b>
+          <small> from</small>
+          <span>137,182users</span>
+          <small> Metascore:</small>
           <span>89/100</span>
         </p>
       </div>
-      <div>
-        <p>
-          Reviews:
-          <span>
-            697 user
-            <i className="fas fa-circle" />
-            502 critic
-            <i className="fas fa-circle" />
-            46
-          </span>
-          from
-          <span>Metacritic.com</span>
-        </p>
+      <div className="third">
+        <ul>
+          <li>
+            <p>Reviews:</p>
+          </li>
+          <li>
+            <b>697user</b>
+          </li>
+          <li>
+            <div>
+              <i className="fas fa-circle" />
+            </div>
+          </li>
+          <li>
+            <b>502critic</b>
+          </li>
+          <li>
+            <div>
+              <i className="fas fa-circle" />
+            </div>
+          </li>
+          <li>
+            <b>46</b>
+          </li>
+          <li>
+            <p>from</p>
+          </li>
+          <li>
+            <b>Metacritic.com</b>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 );
 const Rate4 = () => (
   <div className="rate4">
-    <p>1</p>
+    <h3>Summary</h3>
   </div>
 );
 const Last = () => <div className="last-block" />;
