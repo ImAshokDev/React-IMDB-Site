@@ -82,7 +82,8 @@ const Rate3 = () => (
             <i className="fas fa-star" />
             <i className="fas fa-star" />
             <i className="fas fa-star" />
-            <b>6</b> <big>/10</big>
+            <b>6</b>
+            <big>/10</big>
           </small>
         </p>
       </div>
@@ -135,6 +136,25 @@ const Rate3 = () => (
 const Rate4 = () => (
   <div className="rate4">
     <h3>Summary</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempora cumque
+      veritatis architecto quasi magnam officiis, voluptates recusandae commodi
+      vero tempore repellat? Atque dolorum unde inventore recusandae? At, neque
+      quisquam!
+    </p>
+    <div className="profile">
+      <p>Director:</p>
+      <span>George Miller</span>
+      <div>
+        <i className="fas fa-circle" />
+      </div>
+      <p>Writers</p>
+      <span>George Miller, Brendan McCarthy, Nick Lathouris</span>
+      <div>
+        <i className="fas fa-circle" />
+      </div>
+      <p>Stars:</p>
+    </div>
   </div>
 );
 const Last = () => <div className="last-block" />;
