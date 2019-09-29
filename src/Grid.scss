@@ -17,6 +17,67 @@
     grid-template-columns: 3fr 1fr;
     .middile-left {
       background: rgb(192, 137, 120);
+      margin: 50px 20px 0 50px;
+      height: 400px;
+      display: grid;
+      grid-template-columns: 5fr 1fr;
+      grid-template-rows: 1fr 1.3fr 1.5fr;
+      .rate1 {
+        h2 {
+          height: 40px;
+          margin: 0 0 2px 0;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          letter-spacing: 1px;
+          font-size: 28px;
+          span {
+            vertical-align: text-bottom;
+            font-weight: normal;
+            color: orange;
+            letter-spacing: 0;
+            font-size: 22px;
+          }
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          li {
+            margin: 0;
+            padding: 2px;
+            float: left;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            h6 {
+              margin: 0;
+              padding: 2px;
+              float: left;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              font-weight: normal;
+              font-size: 18px;
+              opacity: 0.9;
+            }
+            span {
+              margin: 0;
+              padding-left: 30px;
+              float: left;
+              color: white;
+              font-size: 18px;
+              opacity: 0.9;
+            }
+            i {
+              margin: 0;
+              padding: 10px 6px;
+              float: left;
+              color: white;
+              font-size: 6px;
+            }
+          }
+        }
+      }
     }
     .middile-right {
       background: silver;
