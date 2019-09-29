@@ -4,7 +4,7 @@ import './Rating.scss';
 
 const Rating = () => (
   <div className="rating-section">
-    <Grid pixels="500px" bg="pink" />
+    <Grid pixels="500px" />
   </div>
 );
 

@@ -1,22 +1,31 @@
 .grid-section {
   margin: 0;
   padding: 0;
-  height: 500px;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   .first-block {
     background: url(./rating/images/01.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.4;
   }
   .middile-block {
     background: url(./rating/images/02.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    .middile-left {
+      background: rgb(192, 137, 120);
+    }
+    .middile-right {
+      background: silver;
+    }
   }
   .last-block {
     background: url(./rating/images/03.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.4;
   }
 }
