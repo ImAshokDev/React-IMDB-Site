@@ -155,6 +155,9 @@ const Rate4 = () => (
       </div>
       <p>Stars:</p>
       <Image />
+      <div className="icon">
+        <i className="fas fa-ellipsis-h" />
+      </div>
     </div>
   </div>
 );
