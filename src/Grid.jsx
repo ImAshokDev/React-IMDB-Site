@@ -1,6 +1,7 @@
 /* eslint-disable react/button-has-type */
 import React from 'react';
 import './Grid.scss';
+import img from './rating/images/04.jpg';
 
 const Grid = ({ pixels }) => (
   <div className="grid-section" style={{ height: pixels }}>
@@ -20,7 +21,7 @@ const Middile = () => (
       <Rate4 />
     </div>
     <div className="middile-right">
-      <p>sdf</p>
+      <Img pick={img} />
     </div>
   </div>
 );
@@ -187,6 +188,11 @@ const Image = () => (
     <div className="img3" />
     <div className="img4" />
     <div className="img5" />
+  </div>
+);
+const Img = ({ pick }) => (
+  <div className="img">
+    <img src={pick} alt="" />
   </div>
 );
 const Last = () => <div className="last-block" />;

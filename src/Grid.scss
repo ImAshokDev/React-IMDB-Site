@@ -4,39 +4,39 @@
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   .first-block {
+    height: 550px;
     background: url(./rating/images/01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.4;
   }
   .middile-block {
+    height: 550px;
     background: url(./rating/images/02.png);
     background-repeat: no-repeat;
     background-position: bottom;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1.2fr;
     .middile-left {
-      background: rgb(192, 137, 120);
-      margin: 50px 20px 0 50px;
+      margin: 50px 40px 0 60px;
       height: 480px;
       display: grid;
       grid-template-columns: 5fr 1fr;
       grid-template-rows: 0.2fr 1.4fr 1.8fr;
       .rate1 {
-        background: red;
         h2 {
           height: 40px;
           margin: 0 0 2px 0;
           font-family: 'Roboto', sans-serif;
           color: white;
           letter-spacing: 1px;
-          font-size: 28px;
+          font-size: 30px;
           span {
             vertical-align: text-bottom;
             font-weight: normal;
             color: orange;
             letter-spacing: 0;
-            font-size: 22px;
+            font-size: 24px;
           }
         }
         ul {
@@ -50,7 +50,7 @@
             font-family: 'Montserrat', sans-serif;
             color: white;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 20px;
             h6 {
               margin: 0;
               padding: 2px;
@@ -66,7 +66,7 @@
               padding-left: 30px;
               float: left;
               color: white;
-              font-size: 18px;
+              font-size: 20px;
               opacity: 0.9;
             }
             i {
@@ -92,6 +92,7 @@
           float: center;
           i {
             margin: 10px;
+            color: brown;
             float: left;
           }
           p {
@@ -114,7 +115,7 @@
             font-size: 110px;
           }
           div {
-            margin: -100px 0 0 34px;
+            margin: -105px 0 0 38px;
             h1 {
               color: orange;
               font-size: 30px;
@@ -131,16 +132,15 @@
             p {
               margin: 24px 0 0 0;
               big {
-                font-size: 16px;
                 opacity: 0.7;
                 font-family: 'Merriweather', serif;
-                font-size: 14px;
+                font-size: 20px;
               }
 
               span {
                 margin: 0;
                 padding: 0 0 0 8px;
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: bold;
                 color: orange;
 
@@ -151,18 +151,18 @@
               small {
                 i {
                   padding-right: 5px;
-                  font-size: 16px;
+                  font-size: 18px;
                   opacity: 0.6;
                 }
                 b {
                   margin: 0;
                   padding-top: 10px;
                   padding-left: 4px;
-                  font-size: 16px;
+                  font-size: 18px;
                 }
                 big {
                   margin: 0;
-                  font-size: 18px;
+                  font-size: 20px;
                   opacity: 0.6;
                 }
               }
@@ -176,7 +176,7 @@
               font-family: 'Roboto', sans-serif;
               small {
                 margin: 0;
-                font-size: 14px;
+                font-size: 16px;
                 opacity: 0.8;
                 padding-right: 5px;
               }
@@ -239,7 +239,8 @@
           margin: 12px 0 12px 0;
           font-size: 12px;
           font-family: 'Roboto', sans-serif;
-          opacity: 0.7;
+          opacity: 0.9;
+          font-weight: bold;
           line-height: 1.5;
         }
         .profile {
@@ -333,9 +334,9 @@
         }
         .button {
           margin: 10px;
-          padding-top: 30px;
-          height: 90px;
-          background: silver;
+          padding-top: 20px;
+          height: 50px;
+
           .btn1 {
             margin-left: 130px;
             border-top-left-radius: 6px;
@@ -411,11 +412,17 @@
       }
     }
     .middile-right {
-      background: greenyellow;
+      .img {
+        margin: 20px;
+        img {
+          width: 100%;
+          height: 510px;
+        }
+      }
     }
   }
   .last-block {
-    height: 580px;
+    height: 550px;
     background: url(./rating/images/03.jpg);
     background-repeat: no-repeat;
     background-position: center;
