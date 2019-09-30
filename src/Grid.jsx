@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
 import './Grid.scss';
 
@@ -54,7 +55,10 @@ const Rate1 = () => (
 );
 const Rate2 = () => (
   <div className="rate2">
-    <p>1</p>
+    <div>
+      <i className="fas fa-calendar-alt" />
+      <p>20</p>
+    </div>
   </div>
 );
 const Rate3 = () => (
@@ -158,6 +162,20 @@ const Rate4 = () => (
       <div className="icon">
         <i className="fas fa-ellipsis-h" />
       </div>
+    </div>
+    <div className="button">
+      <button className="btn1">
+        <i className="fas fa-plus" />
+        <p>watchlist</p>
+      </button>
+      <button className="btn2">
+        <i className="fas fa-caret-down" />
+      </button>
+
+      <button className="btn3">
+        <i className="fas fa-caret-right" />
+        <p>watch trailer</p>
+      </button>
     </div>
   </div>
 );

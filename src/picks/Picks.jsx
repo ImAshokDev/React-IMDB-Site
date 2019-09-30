@@ -12,7 +12,8 @@ const Middile = () => (
   <div className="middile-block">
     <div className="head">
       <h6>
-        <span>imdb picks:</span> november
+        <span>imdb picks:</span>
+        november
       </h6>
     </div>
     <PicksImg />

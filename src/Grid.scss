@@ -18,11 +18,12 @@
     .middile-left {
       background: rgb(192, 137, 120);
       margin: 50px 20px 0 50px;
-      height: 400px;
+      height: 480px;
       display: grid;
       grid-template-columns: 5fr 1fr;
-      grid-template-rows: 1fr 1.3fr 1.5fr;
+      grid-template-rows: 0.2fr 1.4fr 1.8fr;
       .rate1 {
+        background: red;
         h2 {
           height: 40px;
           margin: 0 0 2px 0;
@@ -75,6 +76,28 @@
               color: white;
               font-size: 6px;
             }
+          }
+        }
+      }
+      .rate2 {
+        height: 100px;
+        div {
+          margin: 30px 40px;
+          background: white;
+          border-radius: 4px;
+          width: 75px;
+          height: 40px;
+          color: black;
+          font-size: 20px;
+          float: center;
+          i {
+            margin: 10px;
+            float: left;
+          }
+          p {
+            margin: 0;
+            padding: 10px;
+            font-family: 'Roboto', sans-serif;
           }
         }
       }
@@ -308,6 +331,80 @@
             }
           }
         }
+        .button {
+          margin: 10px;
+          padding-top: 30px;
+          height: 90px;
+          background: silver;
+          .btn1 {
+            margin-left: 130px;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            background: orange;
+            width: 130px;
+            height: 40px;
+            border: none;
+            outline: none;
+            float: left;
+            i {
+              margin: 8px;
+              padding: 0;
+              font-size: 12px;
+              float: left;
+            }
+            p {
+              margin: 5px;
+              padding: 0;
+              font-size: 12px;
+              text-align: center;
+              font-family: 'Roboto', sans-serif;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+          .btn2 {
+            margin: 0;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            background: orange;
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-left: 1px solid rgb(139, 123, 123);
+            outline: none;
+            i {
+              margin: 8px 0;
+              padding: 0;
+              font-size: 20px;
+            }
+          }
+          .btn3 {
+            margin-left: 30px;
+            border-radius: 6px;
+            padding: 12px;
+            background: white;
+            width: 160px;
+            height: 40px;
+            border: none;
+            outline: none;
+
+            i {
+              margin: 0;
+              padding: 0;
+              font-size: 20px;
+              float: left;
+            }
+            p {
+              margin: 0;
+              padding: 0;
+              font-size: 12px;
+              text-align: center;
+              font-family: 'Roboto', sans-serif;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
       }
       .rate4 {
         grid-column: 1 / span 2;
@@ -318,6 +415,7 @@
     }
   }
   .last-block {
+    height: 580px;
     background: url(./rating/images/03.jpg);
     background-repeat: no-repeat;
     background-position: center;
