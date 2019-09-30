@@ -220,15 +220,16 @@
           line-height: 1.5;
         }
         .profile {
+          height: 40px;
           p {
-            margin: 0;
+            margin-top: 10px;
             float: left;
             font-size: 14px;
             font-family: 'Roboto', sans-serif;
             font-weight: 600;
           }
           span {
-            margin: 0;
+            margin-top: 10px;
             float: left;
             padding: 2px 2px 0 4px;
             font-size: 13px;
@@ -236,11 +237,60 @@
             color: orange;
           }
           div {
-            margin: 0;
+            margin-top: 10px;
             padding: 0 8px;
             padding-top: 7px;
             float: left;
             font-size: 4px;
+          }
+          .image {
+            margin: 0;
+            padding: 0;
+            .img1 {
+              padding: 0;
+              margin: 5px;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              background-image: url(./rating/images/05.png);
+              background-size: cover;
+            }
+            .img2 {
+              padding: 0;
+              margin: 5px;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              background-image: url(./rating/images/06.jpg);
+              background-size: cover;
+            }
+            .img3 {
+              padding: 0;
+              margin: 5px;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              background-image: url(./rating/images/07.jpg);
+              background-size: cover;
+            }
+            .img4 {
+              padding: 0;
+              margin: 5px;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              background-image: url(./rating/images/08.jpg);
+              background-size: cover;
+            }
+            .img5 {
+              padding: 0;
+              margin: 5px;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              background-image: url(./rating/images/09.jpg);
+              background-size: cover;
+            }
           }
         }
       }

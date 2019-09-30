@@ -154,7 +154,18 @@ const Rate4 = () => (
         <i className="fas fa-circle" />
       </div>
       <p>Stars:</p>
+      <Image />
     </div>
+  </div>
+);
+
+const Image = () => (
+  <div className="image">
+    <div className="img1" />
+    <div className="img2" />
+    <div className="img3" />
+    <div className="img4" />
+    <div className="img5" />
   </div>
 );
 const Last = () => <div className="last-block" />;
