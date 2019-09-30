@@ -22,7 +22,7 @@
       height: 480px;
       display: grid;
       grid-template-columns: 5fr 1fr;
-      grid-template-rows: 0.2fr 1.4fr 1.8fr;
+      grid-template-rows: 0.2fr 1.1fr 1.8fr;
       .rate1 {
         h2 {
           height: 40px;
@@ -176,13 +176,13 @@
               font-family: 'Roboto', sans-serif;
               small {
                 margin: 0;
-                font-size: 16px;
+                font-size: 17px;
                 opacity: 0.8;
                 padding-right: 5px;
               }
               b {
                 margin: 0;
-                font-size: 14px;
+                font-size: 15px;
                 opacity: 0.4;
               }
               span {
@@ -201,20 +201,20 @@
                 float: left;
                 p {
                   margin: 0;
-                  font-size: 14px;
+                  font-size: 16px;
                   padding: 0;
                   font-family: 'Roboto', sans-serif;
                 }
                 b {
                   margin: 0;
-                  font-size: 13px;
+                  font-size: 14px;
                   padding-left: 4px;
                   font-family: 'Roboto', sans-serif;
                   font-weight: bolder;
                   padding-right: 8px;
                 }
                 div {
-                  margin-top: 8px;
+                  margin-top: 7px;
                   font-size: 4px;
                   padding: 0 2px;
                 }
@@ -227,17 +227,16 @@
         grid-column: 1 / span 2;
       }
       .rate4 {
-        height: 100px;
         color: white;
         h3 {
           margin: 0;
-          font-size: 16px;
+          font-size: 20px;
           font-family: 'Roboto', sans-serif;
           font-weight: bolder;
         }
         p {
           margin: 12px 0 12px 0;
-          font-size: 12px;
+          font-size: 14px;
           font-family: 'Roboto', sans-serif;
           opacity: 0.9;
           font-weight: bold;
@@ -248,7 +247,7 @@
           p {
             margin-top: 10px;
             float: left;
-            font-size: 14px;
+            font-size: 15px;
             font-family: 'Roboto', sans-serif;
             font-weight: 600;
           }
@@ -256,7 +255,7 @@
             margin-top: 10px;
             float: left;
             padding: 2px 2px 0 4px;
-            font-size: 13px;
+            font-size: 14px;
             font-family: 'Roboto', sans-serif;
             color: orange;
           }
