@@ -1,6 +1,6 @@
-import React from "react";
-import "./Grid.scss";
-import img from "./rating/images/04.jpg";
+import React from 'react';
+import './Grid.scss';
+import img from './rating/images/04.jpg';
 
 // Pass eveythin as props
 const Grid = ({ pixels }) => (
@@ -15,10 +15,21 @@ const First = () => <div className="first-block" />;
 const Middile = () => (
   <div className="middile-block">
     <div className="middile-left">
-      <Rate1 />
-      <Rate2 />
-      <Rate3 />
-      <Rate4 />
+      <Rate1
+        head1="    MAD MAX: FURY ROAD"
+        headsp="(2015)"
+        h6="120 min"
+        i1={<i className="fas fa-circle" />}
+        list={['Action,', 'Adventure,', 'Sci-Fi']}
+        sp="15 May 2015 (USA)"
+      />
+      <Rate2 date="20" />
+      <Rate3 icon={<i className="fas fa-star" />} />
+      <Rate4
+        dname="George Miller"
+        icon={<i className="fas fa-circle" />}
+        wname="George Miller, Brendan McCarthy, Nick Lathouris"
+      />
     </div>
     <div className="middile-right">
       <Img pick={img} />
@@ -26,43 +37,39 @@ const Middile = () => (
   </div>
 );
 
-const Rate1 = () => (
+const Rate1 = ({ head1, headsp, i1, h6, list, sp }) => (
   <div className="rate1">
     <h2>
-      MAD MAX: FURY ROAD
-      <span>(2015)</span>
+      {head1}
+      <span>{headsp}</span>
     </h2>
     <ul>
       <li>
         <h6>R</h6>
       </li>
+      <li>{i1}</li>
       <li>
-        <i className="fas fa-circle" />
+        <h6>{h6}</h6>
       </li>
+      <li>{i1}</li>
+      {list.map(d => (
+        <li>{d}</li>
+      ))}
       <li>
-        <h6>120 min</h6>
-      </li>
-      <li>
-        <i className="fas fa-circle" />
-      </li>
-      <li>Action,</li>
-      <li>Adventure,</li>
-      <li>Sci-Fi</li>
-      <li>
-        <span>15 May 2015 (USA)</span>
+        <span>{sp}</span>
       </li>
     </ul>
   </div>
 );
-const Rate2 = () => (
+const Rate2 = ({ date }) => (
   <div className="rate2">
     <div>
       <i className="fas fa-calendar-alt" />
-      <p>20</p>
+      <p>{date}</p>
     </div>
   </div>
 );
-const Rate3 = () => (
+const Rate3 = ({ icon }) => (
   <div className="rate3">
     <div className="left">
       <i className="fas fa-circle-notch" />
@@ -75,20 +82,23 @@ const Rate3 = () => (
         <p>
           <big> Your rating:</big>
           <span>
-            {/* map */}
+            {icon}
+            {icon}
+            {icon}
+            {icon}
+            {icon}
+            {icon}
+            {/* <i className="fas fa-star" />
             <i className="fas fa-star" />
             <i className="fas fa-star" />
             <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
+            <i className="fas fa-star" /> */}
           </span>
           <small>
-            {/* map */}
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
+            {icon}
+            {icon}
+            {icon}
+            {icon}
             <b>6</b>
             <big>/10</big>
           </small>
@@ -141,7 +151,7 @@ const Rate3 = () => (
     </div>
   </div>
 );
-const Rate4 = () => (
+const Rate4 = ({ dname, icon, wname }) => (
   <div className="rate4">
     <h3>Summary</h3>
     <p>
@@ -152,15 +162,11 @@ const Rate4 = () => (
     </p>
     <div className="profile">
       <p>Director:</p>
-      <span>George Miller</span>
-      <div>
-        <i className="fas fa-circle" />
-      </div>
+      <span>{dname}</span>
+      <div>{icon}</div>
       <p>Writers</p>
-      <span>George Miller, Brendan McCarthy, Nick Lathouris</span>
-      <div>
-        <i className="fas fa-circle" />
-      </div>
+      <span>{wname}</span>
+      <div>{icon}</div>
       <p>Stars:</p>
       <Image />
       <div className="icon">
@@ -168,15 +174,15 @@ const Rate4 = () => (
       </div>
     </div>
     <div className="button">
-      <button className="btn1">
+      <button type="button" className="btn1">
         <i className="fas fa-plus" />
         <p>watchlist</p>
       </button>
-      <button className="btn2">
+      <button type="button" className="btn2">
         <i className="fas fa-caret-down" />
       </button>
 
-      <button className="btn3">
+      <button type="button" className="btn3">
         <i className="fas fa-caret-right" />
         <p>watch trailer</p>
       </button>
