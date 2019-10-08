@@ -1,5 +1,5 @@
-import React from "react";
-import "./GalleryMiddile.scss";
+import React from 'react';
+import './GalleryMiddile.scss';
 import {
   img1,
   img2,
@@ -11,7 +11,7 @@ import {
   img8,
   img9,
   img10
-} from "./images";
+} from './images';
 
 const GalleryMiddile = () => (
   <div className="gallery-middile">

@@ -1,13 +1,12 @@
-import React from "react";
-import "./Footer.scss";
+import React from 'react';
+import './Footer.scss';
 
-const Footer = () => (
+const Footer = ({ icon }) => (
   <div className="footer-section">
     <div className="icon">
-      {/* map */}
-      <i className="fab fa-twitter-square" />
-      <i className="fab fa-facebook" />
-      <i className="fab fa-instagram" />
+      {icon.map((v) => (
+        <i className={`fab fa-${v.name}`} />
+      ))}
     </div>
     <div className="text">
       <p>Copyright @ 1990-2015 IMDb.com. Inc</p>
