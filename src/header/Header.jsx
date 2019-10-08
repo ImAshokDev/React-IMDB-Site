@@ -1,10 +1,12 @@
-import React from "react";
-import "./Header.scss";
+import React from 'react';
+import './Header.scss';
 
 const Header = () => (
   <div className="header-section">
     <Logo />
-    <Menu />
+    <Menu
+      list={['movies', 'tv series', 'news', 'photos', 'events', 'trailers']}
+    />
     <Search />
     <Profile />
   </div>
@@ -18,15 +20,12 @@ const Logo = () => (
   </div>
 );
 // Map
-const Menu = () => (
+const Menu = ({ list }) => (
   <div className="menu-block">
     <ul>
-      <li>movies</li>
-      <li>tv series</li>
-      <li>news</li>
-      <li>photos</li>
-      <li>events</li>
-      <li>trailers</li>
+      {list.map((d) => (
+        <li>{d}</li>
+      ))}
     </ul>
   </div>
 );
