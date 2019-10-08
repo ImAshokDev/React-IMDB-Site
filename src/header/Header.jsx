@@ -1,5 +1,5 @@
-import React from 'react';
-import './Header.scss';
+import React from "react";
+import "./Header.scss";
 
 const Header = () => (
   <div className="header-section">
@@ -17,6 +17,7 @@ const Logo = () => (
     </div>
   </div>
 );
+// Map
 const Menu = () => (
   <div className="menu-block">
     <ul>

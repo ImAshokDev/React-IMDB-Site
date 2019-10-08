@@ -1,8 +1,8 @@
-/* eslint-disable react/button-has-type */
-import React from 'react';
-import './Grid.scss';
-import img from './rating/images/04.jpg';
+import React from "react";
+import "./Grid.scss";
+import img from "./rating/images/04.jpg";
 
+// Pass eveythin as props
 const Grid = ({ pixels }) => (
   <div className="grid-section" style={{ height: pixels }}>
     <First />
@@ -75,6 +75,7 @@ const Rate3 = () => (
         <p>
           <big> Your rating:</big>
           <span>
+            {/* map */}
             <i className="fas fa-star" />
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -83,6 +84,7 @@ const Rate3 = () => (
             <i className="fas fa-star" />
           </span>
           <small>
+            {/* map */}
             <i className="fas fa-star" />
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -105,6 +107,7 @@ const Rate3 = () => (
       </div>
       <div className="third">
         <ul>
+          {/* map */}
           <li>
             <p>Reviews:</p>
           </li>
